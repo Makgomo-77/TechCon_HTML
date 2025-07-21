@@ -20,12 +20,18 @@
             <a href="https://www.instagram.com/TechCon2024" aria-label="Follow us on Instagram" target="_blank" rel="noopener">Instagram</a>
         </nav>
         <iframe src="https://google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789012!2d-122.12345678901234!3d37.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580123456!2sTechCon+Location!5e0!3m2!1sen!2s!4v1234567890123" allowfullscreen="" loading="lazy" title="TechCon Location"></iframe>
-        <form autocomplete="on">
-            <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your Name">
-            <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your Email">
-            <textarea id="message" name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <form>
+    <label for="name">Your Name<span aria-hidden="true" style="color:red;">*</span></label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your Name">
+    
+    <label for="email">Your Email<span aria-hidden="true" style="color:red;">*</span></label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+    
+    <label for="message">Your Message<span aria-hidden="true" style="color:red;">*</span></label>
+    <textarea id="message" name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+    
+    <button type="submit">Send Message</button>
+</form>
     </main>
     <footer>
         <p>&copy; 2024 TechCon. All rights reserved.</p>
